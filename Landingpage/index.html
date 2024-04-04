@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+   
+
+    <title>Bake Heaven</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">
+        <h1>
+          <span class="jab">Bake</span><span class="tv"> Heaven</span
+          >
+        </h1>
+      </a>
+
+      <!-- Dark/light theme switcher -->
+      <div class="theme-switch">
+        <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+          <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+          <ion-icon name="moon-outline" class="moon"></ion-icon>
+          <div class="switcher"></div>
+        </label>
+      </div>
+
+      <ul>
+        <li class="nav-item">
+          <a href="#about" class="nav-link" id="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Gallery" class="nav-link" id="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Speciality" class="nav-link" id="nav-link"
+            >Our speciality</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="#sub" class="nav-link" id="nav-link">Subscribe</a>
+        </li>
+      </ul>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+      <span class="intro-text">
+        <h1>
+          <span class="hear"> Every bite takes you to </span> <br />
+          <span class="connecting"> Heaven</span>
+        </h1>
+        <span class="var"><p>spreading Love through food</p></span>
+        <span><a class="btn red" href="#">Learn More</a></span>
+        <span><a class="btn blue" href="#">Subscribe</a></span>
+      </span>
+      <span class="main"><img src="assets/images/cakes.jpeg" height="500px" width="800px" border-radius="8%" ></span>
+    </section>
+    
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h3>Keep an Eye out for Our recipes</h3>
+      <p>
+        We share them very often.Our  objective is to make World class bakery items available 
+         to everyone.
+      </p>
+      <br>
+      <h3>Customer of the month</h3>
+      <p>
+        Try out our wide range of eatables and get a chance be our customer of the month.
+      </p>
+    </section>
+
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+      <div class="stars-gallery">
+        <a href="assets/images/cake4.jpeg" class="big">
+          <img
+            src="assets/images/cake4.jpeg"
+            alt="cake4"
+            
+          />
+        </a>
+
+        <a href="assets/images/cake2.jpeg" class="big">
+          <img
+            src="assets/images/cake2.jpeg"
+            alt="cake2"
+            
+          />
+        </a>
+
+        <a href="assets/images/cupcake.jpeg" class="big">
+          <img
+            src="assets/images/cupcake.jpeg"
+            alt="cupcake"
+            
+          />
+        </a>
+
+        <a href="assets/images/cake1.jpeg" class="big">
+          <img
+            src="assets/images/cake1.jpeg"
+            alt="cake1"
+            
+          />
+        </a>
+
+        <a href="assets/images/pastry.jpeg" class="big"
+          ><img
+            src="assets/images/pastry.jpeg"
+            alt="pastry"
+            
+          />
+        </a>
+
+        <a href="assets/images/doughnut.jpeg" class="big">
+          <img
+            src="assets/images/doughnut.jpeg"
+            alt="doughnut"
+            
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Jab TV Stakeholders -->
+    <section class="people" id="stakeholders">
+      <div class="stakeholders">
+        <div class="persons">
+          <div class="person-1">
+            <img src="assets/images/vegan.jpg" alt="John Doe"  width="400" height="400"/>
+            <p class="name">Healthy foods</p>
+            
+          </div>
+          <div class="person-2">
+            <img src="assets/images/healthy.jpg" alt="Jane Doe" width="400" height="400" />
+            <p class="name">vegan baking</p>
+            
+          </div>
+          <div class="person-3">
+            <img src="assets/images/glutten.jpeg" alt="John Doe Jnr" width="400" height="400" />
+            <p class="name">Glutten free baking</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for Recipes</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Follow us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    <footer>&copy;2024. All Rights Reserverd</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+    /></i>
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+   
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+      var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>
+  </body>
+</html>
