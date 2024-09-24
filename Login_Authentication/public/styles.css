@@ -1,0 +1,109 @@
+.main {
+  padding: 20px;
+  font-family: 'Helvetica', serif;
+  box-shadow: 5px 5px 7px 5px #888888;
+}
+
+.main h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Helvetica', serif;
+}
+
+input {
+  font-family: 'Helvetica', serif;
+  width: 100%;
+  font-size: 20px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid #767474;
+}
+
+input[type=submit] {
+  font-family: 'Helvetica', serif;
+  width: 100%;
+  background-color: #767474;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Century Gothic';
+}
+
+header {
+  background-color: seagreen;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px; /* Corrected the comma to a space */
+  border: 1px solid white;
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  background-color: white; /* Corrected the property name */
+  color: black;
+}
+
+ul li.active a {
+  background-color: white;
+  color: black;
+}
+
+
+
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}
